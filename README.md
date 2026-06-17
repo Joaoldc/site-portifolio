@@ -23,6 +23,7 @@ Site de apresentação profissional para **Desenvolvedor Full Stack / QA**, cria
 ## 📁 Estrutura
 
 ```
+portifolio-apresentacao/
 ├── index.html   # Página principal
 ├── style.css    # Estilos completos
 ├── script.js    # Interatividade e animações
