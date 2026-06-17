@@ -15,12 +15,17 @@
         <div class="nav-container">
             <a href="#" class="logo">&lt;Dev.Tech/&gt;</a>
             <nav class="nav-menu" id="nav-menu">
-                <a href="#sobre">Sobre</a>
-                <a href="#estudos">Estudos</a>
-                <a href="#experiencia">Experiência</a>
-                <a href="#competencias">Interesses & Idiomas</a>
-                <a href="#contato">Contato</a>
+                <a href="#sobre"><span data-i18n="nav.about">Sobre</span></a>
+                <a href="#estudos"><span data-i18n="nav.studies">Estudos</span></a>
+                <a href="#experiencia"><span data-i18n="nav.experience">Experiência</span></a>
+                <a href="#competencias"><span data-i18n="nav.skills">Interesses & Idiomas</span></a>
+                <a href="#contato"><span data-i18n="nav.contact">Contato</span></a>
             </nav>
+            <div class="lang-switcher">
+                <button class="lang-btn active" data-lang="pt">PT</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="es">ES</button>
+            </div>
             <div class="menu-toggle" id="menu-toggle">
                 <i class="fas fa-bars"></i>
             </div>
@@ -30,15 +35,15 @@
     <section id="sobre" class="hero-section">
         <div class="container">
             <div class="hero-content">
-                <p class="greeting">Seja bem vindo...</p>
+                <p class="greeting" data-i18n="hero.greeting">Seja bem vindo...</p>
                 <h1>João Luiz da Conceição</h1>
-                <h2 class="dynamic-subtitle">Desenvolvedor Full Stack / QA</h2>
-                <p class="description">
+                <h2 class="dynamic-subtitle" data-i18n="hero.subtitle">Desenvolvedor Full Stack / QA</h2>
+                <p class="description" data-i18n="hero.description">
                     Profissional focado em criar soluções tecnológicas inovadoras, eficientes e úteis para o dia a dia, buscando reconhecer a necessidade do cliente e me aprofundar na análise e resolução das problemáticas, oferecendo soluções para facilitar sua vida
                 </p>
                 <div class="hero-buttons">
-                    <a href="#contato" class="btn primary-btn">Entrar em Contato</a>
-                    <a href="#experiencia" class="btn secondary-btn">Ver Experiência</a>
+                    <a href="#contato" class="btn primary-btn"><span data-i18n="hero.contactBtn">Entrar em Contato</span></a>
+                    <a href="#experiencia" class="btn secondary-btn"><span data-i18n="hero.experienceBtn">Ver Experiência</span></a>
                 </div>
             </div>
         </div>
@@ -46,35 +51,35 @@
 
     <section id="estudos" class="section-padding">
         <div class="container">
-            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Estudos & Formação</h2>
+            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> <span data-i18n="studies.title">Estudos & Formação</span></h2>
             <div class="timeline">
                 <div class="timeline-item">
-                    <span class="date">2025 - Cursando</span>
-                    <h3>Bacharelado em Tecnologia da Informação</h3>
-                    <h4>Universidade Univesp</h4>
-                    <p>Foco em arquitetura de sistemas, desenvolvimento ágil, estruturas de dados e desenvolvimento web.</p>
+                    <span class="date" data-i18n="studies.item1.date">2025 - Cursando</span>
+                    <h3 data-i18n="studies.item1.title">Bacharelado em Tecnologia da Informação</h3>
+                    <h4 data-i18n="studies.item1.institution">Universidade Univesp</h4>
+                    <p data-i18n="studies.item1.desc">Foco em arquitetura de sistemas, desenvolvimento ágil, estruturas de dados e desenvolvimento web.</p>
                 </div>
                 <div class="timeline-item">
-                    <span class="date">2025</span>
-                    <h3>Engenharia Ambiental</h3>
-                    <h4>Universidade da Cidade de São Paulo</h4>
+                    <span class="date" data-i18n="studies.item2.date">2025</span>
+                    <h3 data-i18n="studies.item2.title">Engenharia Ambiental</h3>
+                    <h4 data-i18n="studies.item2.institution">Universidade da Cidade de São Paulo</h4>
                 </div>
                 <div class="timeline-item">
-                    <span class="date">2026</span>
-                    <h3>Quality Assurance (QA)</h3>
-                    <p>Testes de qualidade de software, suas especificidades e ferramentas como o Selenium para testes automatizados Web com Python.</p>
+                    <span class="date" data-i18n="studies.item3.date">2026</span>
+                    <h3 data-i18n="studies.item3.title">Quality Assurance (QA)</h3>
+                    <p data-i18n="studies.item3.desc">Testes de qualidade de software, suas especificidades e ferramentas como o Selenium para testes automatizados Web com Python.</p>
                 </div>
                 <div class="timeline-item">
-                    <span class="date">2025</span>
-                    <h3>Desenvolvimento Backend Java/Spring</h3>
-                    <h4>DIO</h4>
-                    <p>Cursos cobrindo Java, ecossistema Spring (Spring Boot, Spring Data JPA, Spring Security), APIs RESTful, bancos de dados relacionais com o MySQL e PostgreSQL, não-relacionais com o MongoDB, Docker e versionamento com GIT.</p>
+                    <span class="date" data-i18n="studies.item4.date">2025</span>
+                    <h3 data-i18n="studies.item4.title">Desenvolvimento Backend Java/Spring</h3>
+                    <h4 data-i18n="studies.item4.institution">DIO</h4>
+                    <p data-i18n="studies.item4.desc">Cursos cobrindo Java, ecossistema Spring (Spring Boot, Spring Data JPA, Spring Security), APIs RESTful, bancos de dados relacionais com o MySQL e PostgreSQL, não-relacionais com o MongoDB, Docker e versionamento com GIT.</p>
                 </div>
                 <div class="timeline-item">
-                    <span class="date">2025</span>
-                    <h3>Desenvolvimento Front-End</h3>
-                    <h4>DIO</h4>
-                    <p>Desenvolvimento de sites e interfaces responsivas utilizando HTML, CSS, JavaScript modernos e frameworks. Integração com APIs e metodologias ágeis (Scrum).</p>
+                    <span class="date" data-i18n="studies.item5.date">2025</span>
+                    <h3 data-i18n="studies.item5.title">Desenvolvimento Front-End</h3>
+                    <h4 data-i18n="studies.item5.institution">DIO</h4>
+                    <p data-i18n="studies.item5.desc">Desenvolvimento de sites e interfaces responsivas utilizando HTML, CSS, JavaScript modernos e frameworks. Integração com APIs e metodologias ágeis (Scrum).</p>
                 </div>
             </div>    
         </div>
@@ -82,16 +87,16 @@
 
     <section id="experiencia" class="section-padding alt-bg">
         <div class="container">
-            <h2 class="section-title"><i class="fas fa-briefcase"></i> Experiência Profissional</h2>
+            <h2 class="section-title"><i class="fas fa-briefcase"></i> <span data-i18n="exp.title">Experiência Profissional</span></h2>
             <div class="timeline">
                 <div class="timeline-item">
-                    <h3>Desenvolvimento de Sites</h3>
-                    <p>Desenvolvimento de sites e interfaces responsivas utilizando HTML, CSS, JavaScript modernos e frameworks. Integração com APIs e metodologias ágeis (Scrum).</p>
+                    <h3 data-i18n="exp.item1.title">Desenvolvimento de Sites</h3>
+                    <p data-i18n="exp.item1.desc">Desenvolvimento de sites e interfaces responsivas utilizando HTML, CSS, JavaScript modernos e frameworks. Integração com APIs e metodologias ágeis (Scrum).</p>
                 </div>
                 <div class="timeline-item">
-                    <span class="date">2022 - 2024</span>
-                    <h3>Montagem de computadores</h3>
-                    <p>Montagem e manutenção de computadores, instalação de sistemas operacionais e configuração de Hackintosh com MacOS, Linux e Windows em bootloader opencore. Configuração de tablets e celulares android para Linux e ambientes de desenvolvimento adaptados nesses dispositivos.</p>
+                    <span class="date" data-i18n="exp.item2.date">2022 - 2024</span>
+                    <h3 data-i18n="exp.item2.title">Montagem de computadores</h3>
+                    <p data-i18n="exp.item2.desc">Montagem e manutenção de computadores, instalação de sistemas operacionais e configuração de Hackintosh com MacOS, Linux e Windows em bootloader opencore. Configuração de tablets e celulares android para Linux e ambientes de desenvolvimento adaptados nesses dispositivos.</p>
                 </div>
             </div>
         </div>
@@ -100,35 +105,32 @@
     <section id="competencias" class="section-padding">
         <div class="container grids-two">
             <div class="card-box">
-                <h3 class="box-title"><i class="fas fa-language"></i> Idiomas</h3>
+                <h3 class="box-title"><i class="fas fa-language"></i> <span data-i18n="skills.languagesTitle">Idiomas</span></h3>
                 <div class="language-item">
-                    <span>Português</span>
-                    <span class="level">Nativo</span>
+                    <span data-i18n="skills.portuguese">Português</span>
+                    <span class="level" data-i18n="skills.portugueseLevel">Nativo</span>
                 </div>
                 <div class="language-item">
-                    <span>Inglês</span>
-                    <span class="level">Intermediário</span>
-                    
+                    <span data-i18n="skills.english">Inglês</span>
+                    <span class="level" data-i18n="skills.englishLevel">Intermediário</span>
                 </div>
                 <div class="language-item">
-                    <span>Espanhol</span>
-                    <span class="level">Fluente</span>
-                   
+                    <span data-i18n="skills.spanish">Espanhol</span>
+                    <span class="level" data-i18n="skills.spanishLevel">Fluente</span>
                 </div>
             </div>
 
             <div class="card-box">
-                <h3 class="box-title"><i class="fas fa-heart"></i> Áreas de Interesse</h3>
+                <h3 class="box-title"><i class="fas fa-heart"></i> <span data-i18n="skills.interestsTitle">Áreas de Interesse</span></h3>
                 <div class="interest-tags">
-                     <span class="tag">Desenvolvimento Backend</span>
-                    <span class="tag">Desenvolvimento Frontend</span>
-                     <span class="tag">DevOps</span>                  
-                    <span class="tag">Inteligência Artificial</span>
-                    <span class="tag">Quality Assurance (QA) </span>
-                    <span class="tag">Cloud Computing</span>
-                    <span class="tag">Cybersecurity</span>
-                    <span class="tag">Infraestrutura e suporte (TI)</span>
-                    
+                    <span class="tag" data-i18n="interests.backend">Desenvolvimento Backend</span>
+                    <span class="tag" data-i18n="interests.frontend">Desenvolvimento Frontend</span>
+                    <span class="tag" data-i18n="interests.devops">DevOps</span>                  
+                    <span class="tag" data-i18n="interests.ai">Inteligência Artificial</span>
+                    <span class="tag" data-i18n="interests.qa">Quality Assurance (QA)</span>
+                    <span class="tag" data-i18n="interests.cloud">Cloud Computing</span>
+                    <span class="tag" data-i18n="interests.cybersecurity">Cybersecurity</span>
+                    <span class="tag" data-i18n="interests.infrastructure">Infraestrutura e suporte (TI)</span>
                 </div>
             </div>
         </div>
@@ -136,24 +138,23 @@
 
     <section id="contato" class="section-padding alt-bg">
         <div class="container contato-container">
-            <h2 class="section-title"><i class="fas fa-envelope"></i> Vamos Conversar?</h2>
-            <p class="contato-text">Estou sempre aberto a novos projetos, oportunidades e parcerias. Sinta-se à vontade para se conectar comigo através de qualquer uma das redes abaixo, whatsapp ou enviando um e-mail!</p>
+            <h2 class="section-title"><i class="fas fa-envelope"></i> <span data-i18n="contact.title">Vamos Conversar?</span></h2>
+            <p class="contato-text" data-i18n="contact.text">Estou sempre aberto a novos projetos, oportunidades e parcerias. Sinta-se à vontade para se conectar comigo através de qualquer uma das redes abaixo, whatsapp ou enviando um e-mail!</p>
             
             <div class="contact-info">
                 <a href="mailto:joao.ldconceicao@gmail.com" class="info-link"><i class="fas fa-envelope"></i> joao.ldconceicao@gmail.com</a>
-                  
+            </div>
+               
             <div class="social-links">
                 <a href="https://wa.me/5513997839431" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
                 <a href="https://github.com/Joaoldc" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
                 <a href="https://linkedin.com/in/joaoluizdaconceicao/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                             
-                
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 - Desenvolvido por João Luiz da Conceição. Todos os direitos reservados.</p>
+        <p data-i18n="footer.text">&copy; 2026 - Desenvolvido por João Luiz da Conceição. Todos os direitos reservados.</p>
     </footer>
 
     <script src="script.js"></script>
